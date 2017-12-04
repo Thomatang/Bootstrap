@@ -1,9 +1,15 @@
-button#navbutton{
-  background-color: #f42e31;
-  color:#f42e31;
+
+* {
+  box-sizing:border-box;
+ text-align: center;
 }
 
-#navbutton:hover
-{
-  background-color: #f42e31;
+nav ul{
+  display: flex;
+  flex-direction: row;
+
+}
+
+li{
+  list-style: none;
 }
