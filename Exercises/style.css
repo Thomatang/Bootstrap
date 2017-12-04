@@ -1,0 +1,28 @@
+
+
+
+h1{
+  text-align: center;
+}
+
+.div1{
+  text-align: center;
+  border: solid black 2px;
+  background-color: #cda5f4;
+  border-radius: 8px;
+}
+
+.yolo{
+margin:0;
+padding:0;
+}
+
+
+.container{
+  text-align: center;
+  border: solid black 2px;
+  background-color: #cda5f4;
+  border-radius: 8px;
+  margin: 0;
+
+}
