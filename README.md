@@ -1,2 +1,2 @@
 # Bootstrap
-Check out my word [here](https://thomatang.github.io/Bootstrap/)
+Check out my work [here](https://thomatang.github.io/Bootstrap/).
