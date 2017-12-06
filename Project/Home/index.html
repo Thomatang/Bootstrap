@@ -4,42 +4,154 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Open+Sans" rel="stylesheet">
     <title></title>
   </head>
   <body>
-          <header>
-              <nav>
-                <div class="row justify-content-md-between">
-                    <div class="logo col-md-2">Saint-Nicolas Coffee
-                    </div>
-                    <ul class="col-md-8">
-                      <li class="col-md-3">Home</li>
-                      <li class="col-md-3">Gallery</li>
-                      <li class="col-md-3 drop-down">Locations</li>
-                      <li class="col-md-3">Contact</li>
-                    </ul>
-                </div>
-                <div class="container">
-                  <div class="jumbotron">
-                    <div class="page-header">
-                      <h1>Saint-Nicolas Coffee</h1>
-                    </div>
-                      <h2> The Man in the Red Hat</h2>
-                      <p>Bruxelles</p>
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light navfont">
+            <a class="navbar-brand" href="#">
+              <img src="Images/cyborg-face.png" alt="logo" class="resizepic">
+              <p class="text-white">Space Boy<br/>Vegan Foods<p>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-0 col-12 d-flex justify-content-around">
+                <li class="nav-item active">
+                  <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Menu</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Locations
+                  </a>
+                  <div class="dropdown-menu navdropopen" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item text-white" href="#">Brussels</a>
+                    <a class="dropdown-item text-white" href="#">Montreal</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item text-white" href="#">Shanghaï</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled text-white" href="#">Contact SBVF</a>
+                </li>
+              </ul>
+
+            </div>
+            </nav>
+        <!-- <div class="col-12 justify-content-center">
+        <div class="d-flex flex-column col-4 offset-4 align-items-center">
+          <img src="Images/cyborg-face.png" alt="logo" class="resizepic">
+          <a class="navbar-brand justify-content-center mr-0 brandname" href="#">Space Boy<br/> Vegan Foods</a>
+        </div>
+      </div>
+        <nav class="navbar navbar-expand-lg navbar-light navfont">
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-0 col-12 justify-content-around ">
+              <li class="nav-item active">
+                <div class="view overlay hm-red-strong">
+                  <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                  <div class="mask">
                   </div>
                 </div>
-              </nav>
-          </header>
-          <div class= "col-md-12 container">
-            <div class="row justify-content-md-around">
-              <div class="col-md-6">
-                NEWS
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Gallery</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Locations
+                </a>
+                <div class="dropdown-menu navdropopen" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item text-white" href="#">Brussels</a>
+                          <a class="dropdown-item text-white" href="#">Montreal</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item text-white" href="#">Shanghaï</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled text-white" href="#">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+        </nav> -->
+      </header>
+        <div class="container">
+          <div class="jumbotron">
+            <h3>Welcome to</h3>
+            <h1>Space Boy<br/>Vegan Foods</h1>
+            <h3>Funky Future Foods, Global</h3>
+          </div>
+        </div>
+        <div class="container">
+          <div class="d-flex row">
+            <div class="col-4 md-col-4">
+            <div class="card minitron">
+              <img class="card-img-top cardimgresize p-4" src="Images/Vision48crop.jpg" alt="Card image cap">
+              <div class="card-block">
+                <h4 class="card-title">SBVF VISION</h4>
+                <p class="card-text">Making the funky foods of the future.</p>
+                <a href="#" class="btn btn-primary tronlink">See Future Foods</a>
               </div>
-              <div class="col-md-6">
-                EVENTS
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card minitron">
+                <img class="card-img-top p-4" src="Images/observatory.jpg" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">SBVF NEWS</h4>
+                  <p class="card-text"> SBVF newsworthy doings, all on view here.</p>
+                  <a href="#" class="btn btn-primary tronlink">What's new?</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-4">
+              <div class="card minitron mb-2">
+                <img class="card-img-top p-4" src="Images/spaceparty.jpg" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">SBVF EXCLUSIVE EVENTS</h4>
+                  <p class="card-text">Always something going on one of our spaceships</p>
+                  <a href="#" class="btn btn-primary tronlink">Join the Space Party</a>
+                </div>
               </div>
             </div>
           </div>
+        </div>
+
+        <footer class="col-12 mx-0 px-0 ">
+          <div class=" mx-0 px-0">
+           <div class="d-flex row justify-content-between">
+              <div class="col-4 d-flex justify-content-start">
+                <img src="Images/cyborg-face.png" alt="logo" class="resizepic2">
+              </div>
+              <div class="col-4">
+                  <a class="navbar-brand justify-content-center mr-0 brandname" href="#">SPVF</a>
+              </div>
+              <div class="col-4 fontawesome d-flex justify-content-around align-items-">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                <i class="fa fa-pinterest-square" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+
+        </footer>
+    <script src="https://use.fontawesome.com/c9d3cd7efa.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
   </body>
 </html>

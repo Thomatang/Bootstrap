@@ -13,3 +13,88 @@ nav ul{
 li{
   list-style: none;
 }
+
+
+.card{
+  border-radius: 8px;
+}
+
+
+body{
+  background: url("Images/space3.jpg"),rgba(217,39,15,0.5);
+}
+
+.resizepic{
+  height:80px;
+  width: 80px;
+  border: solid white 5px;
+}
+
+
+.brandname{
+  color:white;
+  font-family: 'Bungee', cursive;
+  text-shadow: 2px 2px purple;
+}
+
+.navfont{
+  color:white;
+  font-family: 'Bungee', cursive;
+  text-shadow: 2px 2px purple;
+  font-size: 14px;
+}
+
+.navdropopen{
+  background-color: rgba(50,46,111,0.5);
+  font-size: 12px;
+}
+
+.jumbotron{
+  background-color: rgba(50,46,111,0.5);
+  color: white;
+
+}
+
+.jumbotron h1{
+  font-family: 'Bungee', cursive;
+  font-size: 60px;
+  letter-spacing: 10px;
+}
+
+.jumbotron p, h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.minitron{
+  background-color: rgba(50,46,111,0.5);
+  color:white;
+}
+
+.minitron h4{
+  font-family: 'Bungee', cursive;
+}
+.tronlink{
+  background-color: rgba(50,46,111,0.5);
+  font-weight: bold;
+  
+}
+
+.cardimgresize{
+  width:150;
+  border-radius: 8px;
+}
+
+footer{
+  background-color: rgba(50,46,111,0.8);
+  font-size: 20px;
+}
+.fontawesome{
+  font-size: 30px;
+  color: white;
+  padding:5px;
+}
+.resizepic2{
+  height:40px;
+  width: 40px;
+  border: solid white 5px;
+}
