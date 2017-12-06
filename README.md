@@ -1,2 +1,2 @@
 # Bootstrap
-Check out my work [here](https://thomatang.github.io/Bootstrap/).
+Check out my exercises [here](https://thomatang.github.io/Bootstrap/).
