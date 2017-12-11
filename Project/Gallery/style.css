@@ -149,5 +149,24 @@ footer{
   text-shadow: 1px 1px black;
 }
 
-.grid-item { width: 200px; }
-.grid-item--width2 { width: 400px; }
+/*=====================================================================
+=====================================================================FGALLERY PAGE */
+
+.card {
+  color: white;
+  margin:0;
+  padding:0;
+  
+}
+
+.card h4{
+  font-family: 'Bungee', cursive;
+  text-shadow: 2px 2px purple;
+}
+
+.gallerytitle{
+  color:white;
+  font-family: 'Bungee', cursive;
+  text-shadow: 2px 2px purple;
+  font-size: 30px;
+}
